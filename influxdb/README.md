@@ -30,9 +30,8 @@ docker run --rm \
  influx_container_id \
  -c "influxd restore -metadir /var/lib/influxdb/meta -datadir /var/lib/influxdb/data -database db_name_to_restore /backups/backup_directory"
 ```
-Notes about the command:
-
-**--entrypoint**: sh or bash.
+Notes about the command: \
+**--entrypoint**: sh or bash. \
 **-v influx_data_dir**: Volume where our influxdb data is stored. Be aware that docker-compose prepends directory name to named volumes. Also, remember that -v takes absolute path.
 
 
