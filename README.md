@@ -3,4 +3,4 @@ Day to day tricks.
 
 **influxdb** \
 **docker** \
-**conda** \
+**conda** 
